@@ -16,7 +16,7 @@ jobs:
           run: mvn test
 
         - name: Checkstyle
-          run: mvn Checkstyle:checkstyle
+          run: mvn checkstyle:checkstyle
 
         # Setup java 11 to be default (sonar-scanner requirement as of 5.x)
         - name: Set Java 11
