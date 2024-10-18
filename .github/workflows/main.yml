@@ -3,7 +3,7 @@ on: push
 env:
     AWS_REGION: us-east-1
     ECR_REPOSITORY: vprofileapp
-    EKS-CLUSTER: vprofile-eks
+    EKS_CLUSTER: vprofile-eks
 
 jobs:
   Testing:
